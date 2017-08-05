@@ -120,7 +120,7 @@ static void IMC(){
                 Console.WriteLine("Você está marginalmente acima do peso. ");
             else if(Result<27.3 && Result<32.3)
                 Console.WriteLine("Você está acima do peso ideal. ");
-            else if(Result>32.3)
+            else
                 Console.WriteLine("Você está obeso. ");
             }
         if(Sexo=="H" || Sexo=="h"){
@@ -131,12 +131,17 @@ static void IMC(){
             else if(Result<26.4 && Result<27.8)
                 Console.WriteLine("Você está marginalmente acima do peso. ");
             else if(Result<27.8 && Result<31.1)
-                Console.WriteLine("Você está acima do peso ideal. ");
-            else if(Result>31.1)
+                Console.WriteLine("Você está acima do peso. ");
+            else
                 Console.WriteLine("Você está obeso. ");
          }        
 
         Console.ReadLine();
     }
+
+
+
+
+
 
 }
