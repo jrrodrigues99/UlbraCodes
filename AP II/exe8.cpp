@@ -5,7 +5,7 @@ main(){
 	int X, Sexo;
 	float Altura=0, MenorAltura=9999, MaiorAltura=0, AlturaF, SomaAlturaF, ContF, MediaAlturaF;
 	
-	for(X=1;X<=2;X++){
+	for(X=1;X<=10;X++){
 		printf("Digite [1] para Masculino e [2] para Feminino. ");
 		scanf("%d", &Sexo);
 		while(Sexo<1 || Sexo>2){
