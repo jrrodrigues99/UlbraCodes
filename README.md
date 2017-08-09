@@ -1,3 +1,3 @@
 # UlbraCodes
-Este repositório contém os Algoritmos de AP I
+Este repositório contém os Algoritmos da Ulbra
 # :)
