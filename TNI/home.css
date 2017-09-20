@@ -1,0 +1,79 @@
+/* NAVBAR */
+
+.card-panel teal lighten-2{
+	background-color: black;
+}
+
+@media screen and (min-width: 769px){
+
+.nav-wrapper ul.center {
+	display: block;
+	width: auto;
+}
+
+.nav-wrapper > ul.center li {
+	float: none;
+	display: inline-block;
+}
+
+.pull-left{
+	margin-left: 2em;
+}
+
+.pull-right{
+	position: absolute;
+	right: 2em;
+	top: 0;
+}
+
+.parallax-container {
+      height: 27rem;
+    }
+
+.hover:hover{
+	border-bottom: 0.1em solid #fff;
+}
+
+/* MAIN */
+
+.block1{
+	max-width: 100%;
+	height: 17rem;
+	padding: 1.45em 0;
+
+	background-color: #fff;
+}
+
+.button{
+	background: #fff;
+	border: 2px solid #333;
+	color: #333;
+	margin-bottom: .5em;
+	width: 10em;
+	height: 3em;
+	font-weight: 500;
+}
+
+.slogan{
+	font-weight: 300;
+	font-size: 2.5em;
+}
+
+.produto{
+	font-weight: 500;
+	font-size: 3em;
+}
+
+.button:hover{
+	background: #333;
+	color: #fff;
+}
+
+.block2{
+	width: 100%;
+	height: 27rem;
+	padding: 1.45em 0;
+
+	background-color: #333;
+}
+

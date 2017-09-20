@@ -1,0 +1,35 @@
+/* NAVBAR */
+
+.card-panel teal lighten-2{
+	background-color: black;
+}
+
+@media screen and (min-width: 769px){
+
+.nav-wrapper ul.center {
+	display: block;
+	width: auto;
+}
+
+.nav-wrapper > ul.center li {
+	float: none;
+	display: inline-block;
+}
+
+.pull-left{
+	margin-left: 2em;
+}
+
+.pull-right{
+	position: absolute;
+	right: 2em;
+	top: 0;
+}
+
+.parallax-container {
+      height: 40.2rem;
+    }
+
+.hover:hover{
+	border-bottom: 0.1em solid #fff;
+}
